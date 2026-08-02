@@ -1,7 +1,31 @@
 aid: voatz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voatz.png
 name: Voatz
-description: Voatz is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Voatz is a remote voting technology company providing secure, mobile-based
+  voting for public elections and organizational governance. Voters cast ballots
+  from a smartphone, tablet, or web browser, with identity assured through
+  hardware-backed authentication and biometric verification, ballots anchored to
+  a permissioned blockchain, and a voter-verifiable paper audit trail produced
+  for every vote. The platform pairs the voter-facing mobile app with an
+  administrative dashboard for election officials and supports accessibility
+  features for voters with disabilities. Voatz has run elections across seven
+  countries for more than five million voters, with pilots and deployments for
+  U.S. counties (West Virginia, Utah County, Denver), political parties, and
+  international election authorities. The company is a Techstars-backed startup.
+  Voatz publishes no public developer API; its surface is a security, audit, and
+  disclosure program rather than an integration platform.
 url: https://raw.githubusercontent.com/api-evangelist/voatz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Voting
+- Elections
+- Mobile Voting
+- Blockchain
+- Government
+- Civic Technology
+- Security
+- Identity Verification
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://voatz.com/
+- type: Blog
+  url: https://voatz.com/blog/
+- type: Support
+  url: https://voatz.com/contact/
+- type: Pricing
+  url: https://forms.webvoatz.com
+- type: TermsOfService
+  url: https://voatz.com/legal/
+- type: PrivacyPolicy
+  url: https://voatz.com/privacy/
+- type: Security
+  url: https://voatz.com/disclosure-policy/
+- type: VulnerabilityDisclosure
+  url: security/voatz-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/voatz-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
